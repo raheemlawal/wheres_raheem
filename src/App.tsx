@@ -34,7 +34,7 @@ function App() {
   useInitGame();
 
   return (
-    <div className='App flex min-h-screen justify-center bg-neutral-900'>
+    <div className='App flex min-h-screen justify-center bg-orange-500'>
       <QueryClientProvider client={queryClient}>
         <Router>
           <Rerouter />
